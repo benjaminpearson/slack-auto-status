@@ -1,0 +1,53 @@
+{
+  "slack": {
+    "apiKeys": [
+      "xxxx"
+    ]
+  },
+  "locations": [
+    {
+      "emoji": "house",
+      "text": "At home",
+      "networks": ["Home WiFi"]
+    },
+    {
+      "emoji": "cityscape",
+      "text": "In the city",
+      "networks": ["VicFreeWiFi"]
+    }
+  ],
+  "shortcuts": {
+    "meeting": {
+      "emoji": "spiral_calendar_pad",
+      "text": "In a meeting"
+    },
+    "commuting": {
+      "emoji": "bus",
+      "text": "Commuting"
+    },
+    "sick": {
+      "emoji": "face_with_thermometer",
+      "text": "Out sick"
+    },
+    "vactioning": {
+      "emoji": "palm_trees",
+      "text": "Vacationing"
+    },
+    "remote": {
+      "emoji": "house_with_garden",
+      "text": "Working remotely"
+    },
+    "plane": {
+      "emoji": "airplane",
+      "text": "Flying"
+    },
+    "concentrating": {
+      "emoji": "thinking_face",
+      "text": "Deep in concentration"
+    },
+    "home": {
+      "emoji": "house",
+      "text": "At home"
+    }
+  }
+}
