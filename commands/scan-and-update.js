@@ -11,7 +11,7 @@ const scanAndUpdate = () => {
   // Check whether a override status exists
   // If it hasn't yet expired then keep the manual
   // status and don't update based on wifi
-  const expires = store.get('expires');
+  const expires = store.get('expires').value();
   if (expires > +(new Date())) {
     // Reset the location so that when wifi scanning
     // resumes it will update the status automatically
